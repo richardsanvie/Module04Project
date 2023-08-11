@@ -1,0 +1,222 @@
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+    }
+    
+    body {
+        margin: 0 auto;
+        overflow-x: hidden;
+    }     
+
+    nav {
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+    nav li {
+        margin: 0 28px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+    nav a:hover {
+        opacity: 0.7;
+    }
+
+    .nav-bar,
+    .container-1,
+    .container-4,
+    footer,
+    .box-1,
+    .box-2{
+        background-color: rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("background.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .container-0{
+        padding: 10px;
+        background-color: #3357bf;
+    }
+
+    .container-text{
+        border-top: 100px;
+        align-items: center;
+    }
+
+    .container-1,
+    .container-4{
+        font-size: 48px;
+        height: 692px;
+        margin: auto;
+        text-align: center;
+        padding-top: 175px;
+        color: white; 
+    }
+
+    .container{
+        height: 600px;
+        justify-content: center;
+        padding: 15px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .container-1{
+        max-width: 2570px; 
+    }
+
+    .container-4,
+    .container-3,
+    .container{
+        max-width: 2559px;
+    }
+
+    .container-4{
+        
+        margin-top: 15px; 
+    }
+
+    a{
+        color: #268AEA;
+        text-decoration: none;
+    }
+    
+    img:hover{
+        transform: rotate(-0.1deg);
+        opacity: 0.7;
+    }    
+
+    .container-3{
+        margin: auto;
+        overflow: hidden;
+        height: 692px;
+        border: white solid 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-3 img{
+        width: 100%;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        object-fit: cover;
+        border-radius: 1%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #container-link2{
+        padding-left: 100px;
+    }
+
+    .img-padding-left{
+        padding-left: 15px;
+    }
+
+    @media (max-width: 852px) {
+        body{
+            background-color: rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("background.jpg");
+        background-size: cover;
+        }
+
+        footer,
+        header,
+        section{
+            display: none;
+            
+        }
+    } 
+
+    .InternContainer0,
+    .footerContainer,
+    .container{
+        margin: 0 auto;      
+        display: flex;
+        max-height: 600px;
+    }
+
+    .box-1,.box-2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .box-2{
+        margin-left: 15px;
+    }
+
+    .box-text{
+        color: aliceblue;
+        font-size: 35px;
+        margin: 0 auto;
+    }
+
+    .InternContainer0,
+    .footerContainer{
+        max-width: 903px;
+        align-items: center; 
+        justify-content: space-between;
+        
+    }
+
+    footer{
+        height: 100px;
+    }
+
+    .footerContainer{
+        padding-top: 15px;
+    }
+
+    .floatEnd{
+        float: inline-end;
+    }
+
+    .footerContainer div{
+        display: inline;
+    }
+
+    #HoverUnderlineText:hover {
+        text-decoration: underline;
+    }
+
+    #socialMedia{
+        height: 15px;
+    }
+
+    #form{
+    max-width: 400px; 
+    margin: 0 auto
+    }
+
+    #form input{
+        padding: 10px; 
+        width: 100%; border: 1px solid #dddddd; border-radius: 5px; box-sizing: border-box; margin-bottom: 20px;
+    }
+
+    #buttonSubmit {
+        background-color: #268AEA !important;
+        color: #ffffff !important;
+        border: none !important;
+        padding: 12px 20px !important;
+        cursor: pointer !important;
+        border-radius: 5px !important;
+        width: 100% !important;
+    }
+    
